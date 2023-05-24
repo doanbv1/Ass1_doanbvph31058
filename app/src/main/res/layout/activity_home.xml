@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Quản Lý Nhân Sự"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#14D31C"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DC4E21"
+        android:gravity="center"
+        android:text="fpoly software company"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/baseline_house_24"
+            android:drawableTint="#ff0000"
+            android:text="Phòng Ban"
+            android:textAllCaps="true"
+            android:textColor="#ff0000"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/baseline_supervisor_account_24"
+            android:text="Nhân Viên"
+            android:textAllCaps="true"
+            android:textColor="#1379CA"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/outline_start_24"
+        android:backgroundTint="@color/white"
+        android:text="Thoát"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+</LinearLayout>
